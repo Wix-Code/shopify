@@ -1,0 +1,139 @@
+.foote{
+  width: 100%;
+  background: #161212;
+  color: white;
+  margin-top: 60px;
+  padding: 40px 0px;
+}
+.footer{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+}
+.foot{
+  display: flex;
+  justify-content: space-between;
+}
+.foot h1{
+  color: white;
+  font-size: 40px;
+}
+.foot1{
+  display: flex;
+  justify-content: space-between;
+}
+.foot10, .foot12, .foot11{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-transform: capitalize;
+}
+.foot_but{
+  display: flex;
+  gap: 30px;
+}
+.foot_but button{
+  padding: 15px;
+  background: blue;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.foot12{
+  text-align: center;
+}
+.foot10 h2, .foot12 h2{
+  margin-bottom: 20px;
+  color: rgb(168, 168, 168);
+  cursor: pointer;
+}
+.foot11 img{
+  width: 250px;
+}
+.foot10 h4, .foot12 h4{
+  color: rgb(77, 77, 77);
+  font-weight: 500;
+  cursor: pointer;
+}
+.foot10 p{
+  color: rgb(112, 112, 112);
+
+}
+.foot10 a{
+  color: rgb(112, 112, 112);
+}
+
+@media screen and (max-width : 750px) {
+  .foot1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .foot10{
+    text-align: center;
+  }
+  .footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .foot11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .foot11 .foot_but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+
+@media screen and (min-width : 750px) and (max-width : 950px) {
+  .foot1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .foot10{
+    text-align: center;
+  }
+  .footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .foot11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .foot11 .foot_but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width : 950px) and (max-width : 1024px) {
+  .footer{
+    margin: 0px 10px;
+  }
+}

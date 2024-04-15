@@ -1,0 +1,176 @@
+.navbar{
+  position: sticky;
+  top: 0px;
+  z-index: 99;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+}
+.navbar1{
+  background: #050505;
+}
+.navbar_1{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0px;
+  font-size: 14px;
+  color: #c9c9c9;
+  text-transform: capitalize;
+}
+.navbar_1 a{
+  color: #c9c9c9;
+}
+.navbar2{
+  background: white;
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+.navbar_2{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+}
+.navcen ul{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-transform: capitalize;
+}
+.navcen ul li{
+  cursor: pointer;
+  font-size: 18px;
+}
+.navright{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.navright button{
+  font-size: 18px;
+  color: rgb(65, 65, 65);
+  cursor: pointer;
+}
+.navbar3{
+  background: rgb(32, 20, 43);
+}
+.search{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0px;
+}
+.inp{
+  width: 500px;
+  background: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+}
+.inp input{
+  width: 100%;
+  padding-left: 20px;
+}
+.inp button{
+  padding: 8px 10px;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+.bars{
+  display: none;
+}
+.shop_it{
+  position: relative;
+}
+.shop_it span{
+  height: 20px;
+  background-color: red;
+  width: 20px;
+  top: -10px;
+  right: -10px;
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: flex;
+  font-size: 13px;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+}
+
+@media screen and (max-width : 750px) {
+  .navcen{
+    display: none;
+  }
+  .nav_left{
+    margin-left: 10px;
+  }
+  .navright{
+    margin-right: 10px;
+  }
+  .navbar_1,.search{
+    margin: 0px 10px;
+  }
+  .navright button{
+    font-size: 22px;
+  }
+  .bars{
+    display: flex;
+  }
+  .nav_open{
+    display: flex;
+    top: 0px;
+    height: 60vh;
+    padding: 40px;
+    position: absolute;
+    z-index: 999;
+    background: rgb(255, 57, 57);
+    color: white;
+    width: 100%;
+  }
+  .nav_open ul{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+  }
+  .nav_open ul li{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+  }
+  .nav_open ul li:hover{
+    color: rgb(56, 56, 56);
+    transition: 0.5s;
+  }
+  .timesbar{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    justify-content: center;
+    font-size: 45px;
+  }
+}
+
+
+
+@media screen and (min-width : 750px) and (max-width : 1024px) {
+  .navbar_1, .navbar_2,.search{
+    margin: 0px 10px;
+  }
+  .navright button{
+    font-size: 22px;
+  }
+}
